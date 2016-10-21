@@ -47,19 +47,18 @@
                     <li><a href="~/Home/Index">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="~/Home/About">About Us</a></li>
                     <li class="dropdown">
-                        <a href="~/Home/Projects" class="dropdown-toggle" data-toggle="dropdown" role="button" 
-                           aria-haspopup="true" aria-expanded="false">
-
-                        Dropdown 
-
-                        <span class="caret"></span></a>
-
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" 
+                           aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span>
+                        </a>
                         <ul class="dropdown-menu">
+                            <li><a href="~/Home/Projects">Projects</a></li>
+                            <li role="separator" class="divider"></li>
                             <li><a href="https://www.google.com/">Test 1</a></li>
                             <li><a href="https://www.google.com/">Test 2</a></li>
                             <li><a href="https://www.google.com/">Test 3</a></li>
                         </ul>
                     </li>
+                    <li><a href="~/Home/Contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -72,6 +71,17 @@
             <p>&copy; @DateTime.Now.Year - Mountain Dev.</p>
         </footer>
     </div>
+
+    <script>
+        $('.navbar li').click(function (e) {
+            $('.navbar li.active').removeClass('active');
+            var $this = $(this);
+            if (!$this.hasClass('active')) {
+                $this.addClass('active');
+            }
+            e.preventDefault();
+        });
+    </script>
 
     <!-- Bootstrap JavaScript -->
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
