@@ -1,9 +1,8 @@
 ﻿@model List<Website.Models.Project>
-
 @section projects {
     @foreach (var item in Model)
     {
-        <li><a>@item.Title</a></li>
+        <li><a href="@item.Link">@item.Title</a></li>
     }
 }
 
