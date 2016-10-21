@@ -20,7 +20,7 @@ namespace Website.Controllers
             {
                 Title = "HEAJEHSA",
                 Description = "asdasdasdasdasd",
-                Link = "asd"
+                Link = "https://google.com"
             });
         }
 

@@ -8,4 +8,10 @@
     <link href="~/css/projects.css" rel="stylesheet" />
 }
 
-<h2>Projects</h2>
+<h1>Projects</h1>
+@foreach (var item in Model)
+{
+    <hr />
+    <h3>@item.Title</h3>
+    <p><a class="btn btn-primary btn-lg" href="@item.Link" role="button">Repos</a></p>
+}
