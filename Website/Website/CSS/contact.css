@@ -1,2 +1,6 @@
 ﻿body {
 }
+
+a:-webkit-any-link {
+    color: #16a085;
+}
