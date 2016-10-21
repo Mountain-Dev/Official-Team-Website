@@ -125,6 +125,9 @@
     <Content Include="Favicon\ms-icon-70x70.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="IMG\aleksei.jpg" />
+    <Content Include="IMG\alex.jpg" />
+    <Content Include="IMG\felix-wetell.jpg" />
     <Content Include="IMG\mountain-dev-logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
