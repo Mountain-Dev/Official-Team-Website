@@ -129,6 +129,7 @@
     <Content Include="IMG\alex.jpg" />
     <Content Include="IMG\felix-wetell.jpg" />
     <Content Include="IMG\mountain-dev-logo.png" />
+    <Content Include="IMG\steven.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Favicon\manifest.json" />
