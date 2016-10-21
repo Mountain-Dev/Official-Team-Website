@@ -18,9 +18,16 @@ namespace Website.Controllers
 
             ProjectList.Add(new Project()
             {
-                Title = "HEAJEHSA",
-                Description = "asdasdasdasdasd",
-                Link = "https://google.com"
+                Title = "Team website",
+                Description = "Thsi was our first collaboratively made website.",
+                Link = "https://github.com/Mountain-Dev/Team-Website"
+            });
+
+            ProjectList.Add(new Project()
+            {
+                Title = "Official team website",
+                Description = "The refined version that we are planning to use.",
+                Link = "https://github.com/Mountain-Dev/Team-Website"
             });
         }
 
