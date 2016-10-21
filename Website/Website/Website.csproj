@@ -92,7 +92,11 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS\about.css" />
+    <Content Include="CSS\contact.css" />
+    <Content Include="CSS\index.css" />
     <Content Include="CSS\layout.css" />
+    <Content Include="CSS\projects.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="IMG\mountain-dev-logo.png" />
