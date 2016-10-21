@@ -1,4 +1,10 @@
 ﻿@model List<Website.Models.Project>
+@section projects {
+    @foreach (var item in Model)
+    {
+        <li><a>@item.Title</a></li>
+    }
+}
 
 @{
     ViewBag.Title = "Projects";
@@ -7,6 +13,7 @@
 @section stylesheets {
     <link href="~/css/projects.css" rel="stylesheet" />
 }
+
 
 <h1>Projects</h1>
 @foreach (var item in Model)

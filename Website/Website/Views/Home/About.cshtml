@@ -1,4 +1,12 @@
-﻿
+﻿@model List<Website.Models.Project>
+
+@section projects {
+    @foreach (var item in Model)
+    {
+        <li><a>@item.Title</a></li>
+    }
+}
+
 @{
     ViewBag.Title = "About";
 }

@@ -34,23 +34,22 @@ namespace Website.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            return View(ProjectList);
         }
 
         public ActionResult About()
         {
-            return View();
+            return View(ProjectList);
         }
 
         public ActionResult Projects()
         {
             return View(ProjectList);
-
         }
 
         public ActionResult Contact()
         {
-            return View();
+            return View(ProjectList);
         }
     }
 }
