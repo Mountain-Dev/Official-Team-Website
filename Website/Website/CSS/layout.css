@@ -6,7 +6,7 @@
 }
 
 b {
-    color: #16a085;
+    color: royalblue;
 }
 
 .background {
@@ -27,15 +27,20 @@ b {
     background-position: 50% 0%;
     background-image: url("http://i.imgur.com/oqONvuA.jpg");
     opacity: 1;
+
+
+}
+
+
+
+#bootstrap-overrides  a {
+
+    color: royalblue;
+
+}
+
+.round-border {
+
     border-radius: 7px;
 
 }
-
-
-
-#bootstrap-overrides .green a {
-
-    color: green;
-
-}
-
