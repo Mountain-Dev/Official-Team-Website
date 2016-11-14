@@ -47,8 +47,13 @@
     <meta name="theme-color" content="#ffffff">
 
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
+
 </head>
-<body>
+<body class="background" id="bootstrap-overrides">
+    <script>
+    document.getElementById("background").style.height = window.screen.availHeight + "px";
+    </script>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -62,10 +67,10 @@
                 </a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="~/Home/Index">Home<span class="sr-only">(current)</span></a></li>
-                    <li><a href="~/Home/About">About</a></li>
-                    <li class="dropdown">
+                <ul id="navbar" class="nav navbar-nav">
+                    <li class="green"><a href="~/Home/Index">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="green"><a href="~/Home/About">About</a></li>
+                    <li class="dropdown green">
                         <a class="dropdown-toggle" data-toggle="dropdown" role="button" 
                            aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span>
                         </a>
@@ -75,7 +80,7 @@
                             @RenderSection("projects", false)
                         </ul>
                     </li>
-                    <li><a href="~/Home/Contact">Contact</a></li>
+                    <li class="green"><a href="~/Home/Contact">Contact</a></li>
                 </ul>
             </div>
         </div>
