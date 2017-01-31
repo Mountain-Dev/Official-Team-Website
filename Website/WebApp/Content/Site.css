@@ -13,8 +13,9 @@ textarea {
     position: relative;
 }
 
-a {
+a, a:visited, a:active {
     color: black;
+    text-decoration: none;
 }
 
 a:hover {
@@ -24,9 +25,21 @@ a:hover {
 
 h1 {
     font-size: 4em;
+    color: #81b200
 }
+
 h3 {
     font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+
+@media(max-height: 900px){
+    .box-container {
+        min-height: 160vh;
+    }
 }
 
 #start {
@@ -38,6 +51,9 @@ h3 {
     width: 250px;
     height: 250px;
     margin: 0 auto;
+}
+
+#start h1 {
 }
 
 #about {
@@ -52,6 +68,10 @@ h3 {
     padding: 50px;
 }
 
+#projects h1 {
+    color: #000;
+}
+
 #contact {
     /*background-color: #ecf0f1;*/
     height: 100vh;
@@ -62,7 +82,14 @@ h3 {
     width: 90vw;
     height: 2px;
     margin: 0 auto;
-    background-color: red;
+    background-color: #81b200;
+}
+
+.text-splitter {
+    width: 50%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #81b200;
 }
 
 .content {
