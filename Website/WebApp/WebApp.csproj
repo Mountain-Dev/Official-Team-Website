@@ -118,6 +118,7 @@
     <Content Include="Content\favicon\ms-icon-70x70.png" />
     <Content Include="Content\favicon\mtn_dev_logo_simple_bw_1024.png" />
     <Content Include="Content\img\mtn_dev_logo_simple_bw_1024.png" />
+    <Content Include="Content\img\ostra-crm-dev.JPG" />
     <Content Include="Content\img\pexels-photo.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

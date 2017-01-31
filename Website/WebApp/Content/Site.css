@@ -18,14 +18,14 @@ a, a:visited, a:active {
     text-decoration: none;
 }
 
-a:hover {
-    color: #9b59b6;
-    text-decoration: none;
-}
+    a:hover {
+        color: #9b59b6;
+        text-decoration: none;
+    }
 
 h1 {
     font-size: 4em;
-    color: #81b200
+    color: #81b200;
 }
 
 h3 {
@@ -36,22 +36,22 @@ p {
     font-size: 2em;
 }
 
-@media(max-height: 900px){
+@media(max-height: 900px) {
     .box-container {
         min-height: 160vh;
     }
 
     h1 {
-    font-size: 3em;
-}
+        font-size: 3em;
+    }
 
-h3 {
-    font-size: 1.5em;
-}
+    h3 {
+        font-size: 1.5em;
+    }
 
-p {
-    font-size: 1.5em;
-}
+    p {
+        font-size: 1.5em;
+    }
 }
 
 #start {
@@ -59,14 +59,14 @@ p {
     padding: 50px;
 }
 
-#start img {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-}
+    #start img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
 
-#start h1 {
-}
+    #start h1 {
+    }
 
 #about {
     /*background-color: #ecf0f1;*/
@@ -80,8 +80,16 @@ p {
     padding: 50px;
 }
 
-#projects h1 {
-    color: #000;
+    #projects h1 {
+        color: #000;
+    }
+
+#projects img {
+    width: 30vw;
+    height: 25vh;
+}
+#projects p {
+    font-size: 1.5em;
 }
 
 #contact {
