@@ -40,6 +40,18 @@ p {
     .box-container {
         min-height: 160vh;
     }
+
+    h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
 }
 
 #start {
