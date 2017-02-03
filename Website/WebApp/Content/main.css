@@ -56,7 +56,7 @@ p {
 }
 
 #start {
-    height: 110vh;
+    height: 120vh;
     padding: 50px;
     /*background-color: #bdc3c7;*/
 }
@@ -72,13 +72,13 @@ p {
 
 #about {
     /*background-color: #ecf0f1;*/
-    height: 110vh;
+    height: 120vh;
     padding: 50px;
 }
 
 #projects {
     background-color: #9b59b6;
-    height: 110vh;
+    height: 120vh;
     padding: 50px;
 }
 
@@ -114,7 +114,7 @@ p {
 }
 
 #members {
-    height: 110vh;
+    height: 120vh;
     padding: 50px;
 }
 #members a {
