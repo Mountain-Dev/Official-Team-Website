@@ -29,11 +29,14 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-        @RenderBody()
-        <br />
-        <footer>
-            <p class="footer-text">&copy; @DateTime.Now.Year - Mountain Dev</p>
-        </footer>
+    @RenderBody()
+    <br />
+    <footer>
+        <p class="footer-text">
+            &copy; @DateTime.Now.Year - Mountain Dev
+            <a href="https://github.com/Mountain-Dev"><i class="fa fa-users"></i></a>
+        </p>
+    </footer>
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 </body>

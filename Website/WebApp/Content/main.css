@@ -56,8 +56,9 @@ p {
 }
 
 #start {
-    height: 100vh;
+    height: 110vh;
     padding: 50px;
+    /*background-color: #bdc3c7;*/
 }
 
     #start img {
@@ -71,13 +72,13 @@ p {
 
 #about {
     /*background-color: #ecf0f1;*/
-    height: 100vh;
+    height: 110vh;
     padding: 50px;
 }
 
 #projects {
     background-color: #9b59b6;
-    height: 100vh;
+    height: 110vh;
     padding: 50px;
 }
 
@@ -113,7 +114,7 @@ p {
 }
 
 #members {
-    height: 100vh;
+    height: 110vh;
     padding: 50px;
 }
 #members a {
@@ -165,4 +166,9 @@ p {
 .footer-text {
     text-align: center;
     font-size: 1.5em;
+}
+
+.footer-text a:hover {
+    color: black;
+    opacity: 0.6;
 }
