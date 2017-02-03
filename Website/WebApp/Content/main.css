@@ -108,18 +108,34 @@ p {
     width: 50%;
 }*/
 
-a .project:hover {
+.project:hover {
     opacity: 0.8;
 }
 
-.project:hover a img {
-    opacity: 0.7;
-}
-
-
-#contact {
+#members {
     height: 100vh;
     padding: 50px;
+}
+#members a {
+    color: #9b59b6;
+}
+
+#members a:hover {
+    opacity: 0.5;
+}
+
+#members table {
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#members th {
+    width: 120px;
+}
+
+#members td {
+    width: 50px;
 }
 
 .splitter {
