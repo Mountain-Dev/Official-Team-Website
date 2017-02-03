@@ -120,7 +120,7 @@
     <Content Include="Content\img\mtn_dev_logo_simple_bw_1024.png" />
     <Content Include="Content\img\ostra-crm-dev.JPG" />
     <Content Include="Content\img\pexels-photo.jpg" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\main.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
